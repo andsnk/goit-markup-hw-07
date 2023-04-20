@@ -333,12 +333,12 @@ header {
 }
 
 .hero {
-  max-width: 1440px;
-  max-height: 600px;
+  max-width: 428px;
+  max-height: 432px;
   margin: 0 auto;
   background-color: var(--hero-background);
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 112px;
+  padding-bottom: 112px;
   background-image: var(--bg-gradient), url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -346,16 +346,16 @@ header {
 }
 
 .hero-title {
-  max-width: 496px;
-  font-size: 56px;
-  line-height: 1.07;
+  max-width: 320px;
+  font-size: 32px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-background);
 }
 
 .hero-btn {
-  margin-top: 48px;
+  margin-top: 72px;
   width: 169px;
   height: 56px;
   left: 20px;
@@ -396,7 +396,6 @@ header {
   justify-content: center;
 }
 
-
 .advantages-logo {
   width: 264px;
   height: 112px;
@@ -419,6 +418,7 @@ header {
 }
 
 .advantages-text {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;

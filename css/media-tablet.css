@@ -3,13 +3,28 @@
     width: 768px;
   }
 
+  .hero {
+    max-width: 1158px;
+    max-height: 600px;
+  }
+
+  .hero-title {
+    max-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
+
+  .hero-btn {
+    margin-top: 36px;
+  }
+  
   .advantages-list {
     gap: 72px 24px;
   }
 
-.advantages-item {
-  width: calc((100% - 24px) / 2);
-}
+  .advantages-item {
+    width: calc((100% - 24px) / 2);
+  }
 
   .team-list {
     gap: 64px 24px;

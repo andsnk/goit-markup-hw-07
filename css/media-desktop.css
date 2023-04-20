@@ -2,6 +2,18 @@
   .container {
     min-width: 1158px;
   }
+
+  .hero {
+    max-width: 1440px;
+    max-height: 600px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  .hero-btn {
+    margin-top: 48px;
+  }
+  
   .advantages {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -20,6 +32,10 @@
     font-size: 20px;
     line-height: 1.2;
     text-align: start;
+  }
+
+  .advantages-text {
+    font-weight: 400;
   }
 
   .work {
