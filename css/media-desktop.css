@@ -1,0 +1,27 @@
+@media screen and (min-width: 1158px) {
+  .container {
+    min-width: 1158px;
+  }
+
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-list {
+    gap: 24px;
+  }
+
+  /* .team-item {
+    width: calc((100% - 72px) / 4);
+  } */
+
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-list {
+    gap: 24px;
+  }
+}

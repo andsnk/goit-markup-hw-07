@@ -32,6 +32,9 @@ body {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
 }
 
 header {
@@ -43,7 +46,8 @@ header {
 }
 
 .container {
-  max-width: 1158px;
+  /* max-width: 1158px; */
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -450,14 +454,15 @@ header {
 /** ------- TEAM------- **/
 
 .team {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
   background-color: var(--light);
 }
 
 .team-list {
   display: flex;
-  gap: 24px;
+  gap: 72px;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -466,7 +471,7 @@ header {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--white-background);
-  width: calc((100% - 72px) / 4);
+  
 }
 
 .team-card-item {
@@ -534,9 +539,10 @@ header {
 /** ------- CUSTOMERS------- **/
 
 .customers {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
+
 .customers-title {
   margin-bottom: 72px;
   text-align: center;
@@ -546,11 +552,14 @@ header {
   text-transform: capitalize;
   color: var(--dark);
 }
+
 .customers-list {
   display: flex;
+  gap: 72px 16px;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
 }
+
 .customers-item {
   width: 168px;
   height: 88px;
