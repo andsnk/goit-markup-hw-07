@@ -3,6 +3,14 @@
     width: 768px;
   }
 
+  .advantages-list {
+    gap: 72px 24px;
+  }
+
+.advantages-item {
+  width: calc((100% - 24px) / 2);
+}
+
   .team-list {
     gap: 64px 24px;
   }

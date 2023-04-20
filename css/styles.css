@@ -385,19 +385,17 @@ header {
 /** ------- ADVANTAGES------- **/
 
 .advantages {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .advantages-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px;
   justify-content: center;
 }
 
-.advantages-item {
-  width: calc((100% - 72px) / 4);
-}
 
 .advantages-logo {
   width: 264px;
@@ -412,9 +410,10 @@ header {
 
 .advantages-subtitle {
   margin-bottom: 8px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
   letter-spacing: 0.02em;
   color: var(--dark);
 }
@@ -426,30 +425,6 @@ header {
 }
 
 /** ------- WORK------- **/
-
-.work {
-  padding-bottom: 120px;
-}
-
-.work-list {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-}
-
-.work-item {
-  width: calc((100% - 48px) / 3);
-}
-
-.work-title {
-  margin-bottom: 72px;
-  text-align: center;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--dark);
-}
 
 /** ------- TEAM------- **/
 
@@ -471,7 +446,6 @@ header {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--white-background);
-  
 }
 
 .team-card-item {
