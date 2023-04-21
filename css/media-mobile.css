@@ -23,6 +23,27 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .header-navigation, .address {
+    position: absolute;
+    top: -150%;
+    z-index: -100;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    user-select: none;
+    pointer-events: none;
+    cursor: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    white-space: nowrap;
+  }
+}
+
 @media screen and (max-width: 1157px) {
   .advantages-logo {
     display: none;
