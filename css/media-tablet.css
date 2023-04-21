@@ -1,6 +1,36 @@
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .footer-container {
+    padding-left: 108px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 72px 24px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+  }
+
+  .footer-hero-wrap {
+    align-items: normal;
+  }
+
+  .footer-soc-text {
+    text-align: start;
+  }
+
+  .footer-form-text {
+    text-align: start;
+  }
+
+  .footer-form {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .footer-form-input {
+    width: 264px;
   }
 
   .hero {
@@ -17,7 +47,7 @@
   .hero-btn {
     margin-top: 36px;
   }
-  
+
   .advantages-list {
     gap: 72px 24px;
   }
