@@ -693,6 +693,7 @@ header {
   transform: translate(-50%, -50%) scale(1);
   padding: 72px 24px 24px 24px;
   width: 100%;
+  max-width: 392px;
   min-height: 586px;
   border-radius: 4px;
   background-color: var(--modal-background);
@@ -871,6 +872,7 @@ header {
 
 .modal-checkbox-label {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
   font-size: 11px;
   line-height: 1.7;
