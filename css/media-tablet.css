@@ -33,4 +33,8 @@
   .customers-list {
     gap: 72px 24px;
   }
+
+  .modal {
+    width: 408px;
+  }
 }

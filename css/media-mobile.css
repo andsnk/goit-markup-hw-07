@@ -10,6 +10,14 @@
   .hero-title {
     font-size: 36px;
   }
+
+  .modal {
+    width: 392px;
+  }
+
+  .modal-checkbox-label {
+    align-items: normal;
+    font-size: 12px;
 }
 
 @media screen and (max-width: 1157px) {

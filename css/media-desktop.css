@@ -83,4 +83,8 @@
   .customers-list {
     gap: 24px;
   }
+
+  .modal {
+    min-height: 584px;
+  }
 }
