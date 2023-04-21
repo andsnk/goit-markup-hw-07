@@ -15,9 +15,14 @@
     width: 392px;
   }
 
+  .modal-link {
+    margin-left: 4px;
+  }
+
   .modal-checkbox-label {
     align-items: normal;
     font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 1157px) {
