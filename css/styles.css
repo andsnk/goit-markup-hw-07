@@ -140,6 +140,45 @@ header {
   font-size: 36px;
 }
 
+.menu {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--white-background);
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.menu-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+.menu-list {
+}
+.list {
+}
+.menu-item {
+}
+.menu-link {
+}
+.link {
+}
+.menu-address-list {
+}
+.menu-address-item {
+}
+.menu-address-link {
+}
+.menu-soc-list {
+}
+.menu-soc-item {
+}
+.menu-soc-link {
+}
+.team-soc-icon {
+}
+
 /* .header-list {
   display: flex;
   margin-left: 76px;
