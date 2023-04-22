@@ -196,7 +196,7 @@ header {
 }
 
 .mob-current {
-  color:var(--pressed-state);
+  color: var(--pressed-state);
 }
 
 .mob-address {
@@ -592,14 +592,13 @@ header {
 /** ------- PORTFOLIO------- **/
 
 .portfolio {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .main-btn {
-  display: flex;
-  padding: 12px 24px;
-  height: 48px;
+  padding: 8px 16px;
+  height: 40px;
   background: var(--light);
   border: 1px solid var(--accent);
   border-radius: 4px;
@@ -627,9 +626,9 @@ header {
 
 .main-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
-  justify-content: center;
-  margin-bottom: 72px;
+  margin-bottom: 48px;
 }
 
 .portfolio-title {
@@ -644,7 +643,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 48px 24px;
+  gap: 48px;
 }
 
 .portfolio-link {

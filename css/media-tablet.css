@@ -221,4 +221,24 @@
     background-color: var(--pressed-state);
     border-color: var(--pressed-state);
   }
+
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .main-list {
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 64px;
+  }
+
+  .main-btn {
+    padding: 12px 24px;
+    height: 48px;
+  }
+
+  .portfolio-list {
+    gap: 72px 24px;
+  }
 }

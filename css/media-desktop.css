@@ -130,4 +130,18 @@
     width: 408px;
     min-height: 584px;
   }
+
+  .portfolio {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+
+  .main-list {
+    margin-bottom: 72px;
+  }
+
+  .portfolio-list {
+    gap: 48px 24px;
+  }
 }
+
