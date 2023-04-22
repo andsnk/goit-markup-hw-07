@@ -5,6 +5,14 @@
 } */
 
 @media screen and (min-width: 428px) {
+  .menu-mail-link {
+    font-size: 36px;
+  }
+
+  .menu-soc-list {
+    gap: 56px;
+   }
+
   .container {
     width: 426px;
   }

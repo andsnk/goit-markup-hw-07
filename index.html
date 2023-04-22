@@ -58,10 +58,23 @@
             </li>
           </ul>
         </address>
-        <button class="menu-btn" type="button">=</button>
+        <button
+          class="menu-btn js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          type="button"
+        >
+          <svg class="menu-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
       </div>
-      <div class="menu">
-        <button class="menu-close" type="button">x</button>
+      <div class="menu js-menu-container" id="mobile-menu">
+        <button class="menu-close-btn js-close-menu" type="button">
+          <svg class="menu-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
         <nav>
           <ul class="menu-list list">
             <li class="menu-item">
@@ -75,49 +88,51 @@
             </li>
           </ul>
         </nav>
-        <address>
-          <ul class="menu-address-list list">
-            <li class="menu-address-item">
-              <a class="menu-address-link link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+        <div>
+          <address class="mob-address">
+            <ul class="menu-address-list list">
+              <li class="menu-address-item">
+                <a class="menu-mail-link link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="menu-address-item">
+                <a class="menu-tel-link link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="menu-soc-list list">
+            <li class="menu-soc-item">
+              <a class="menu-soc-link link" href="">
+                <svg class="menu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="menu-address-item">
-              <a class="menu-address-link link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
+            <li class="menu-soc-item">
+              <a class="menu-soc-link link" href="">
+                <svg class="menu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-soc-item">
+              <a class="menu-soc-link link" href="">
+                <svg class="menu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-soc-item">
+              <a class="menu-soc-link link" href=""
+                ><svg class="menu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use></svg
+              ></a>
             </li>
           </ul>
-        </address>
-        <ul class="menu-soc-list list">
-          <li class="menu-soc-item">
-            <a class="menu-soc-link link" href="">
-              <svg class="team-soc-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="menu-soc-item">
-            <a class="menu-soc-link link" href="">
-              <svg class="team-soc-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="menu-soc-item">
-            <a class="menu-soc-link link" href="">
-              <svg class="team-soc-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="menu-soc-item">
-            <a class="menu-soc-link link" href=""
-              ><svg class="team-soc-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin"></use></svg
-            ></a>
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -597,5 +612,12 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
