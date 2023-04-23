@@ -16,10 +16,10 @@
     function removeModal(e) {
       if(e.target == e.currentTarget) {
         refs.modal.classList.add("is-hidden");
+        document.body.classList.toggle("no-scroll")
       }
-      
-      
     }
+    
 
     function toggleModal() {
       refs.modal.classList.toggle("is-hidden");
