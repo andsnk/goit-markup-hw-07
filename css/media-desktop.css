@@ -37,10 +37,6 @@
     gap: 120px;
   }
 
-  /* .footer-text {
-     max-width: 264px;
-  } */
-
   .footer-form-wrap {
     margin-left: -40px;
   }
@@ -124,11 +120,6 @@
 
   .customers-list {
     gap: 24px;
-  }
-
-  .modal {
-    width: 408px;
-    min-height: 584px;
   }
 
   .portfolio {
