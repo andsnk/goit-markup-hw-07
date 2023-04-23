@@ -391,10 +391,26 @@ header {
   background-color: var(--hero-background);
   padding-top: 112px;
   padding-bottom: 112px;
-  background-image: var(--bg-gradient), url(../images/hero-bg.jpg);
+  background-image: var(--bg-gradient), url(../images/hero-bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: var(--bg-gradient), url(../images/hero-bg-mob-2x.jpg);
+  }
+}
+
+@media (min-device-pixel-ratio: 3),
+  (min-resolution: 288dpi),
+  (min-resolution: 3dppx) {
+  .hero {
+    background-image: var(--bg-gradient), url(../images/hero-bg-mob-3x.jpg);
+  }
 }
 
 .hero-title {

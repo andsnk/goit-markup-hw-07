@@ -122,6 +122,15 @@
   .hero {
     max-width: 1158px;
     max-height: 600px;
+    background-image: var(--bg-gradient), url(../images/hero-bg.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: var(--bg-gradient), url(../images/hero-bg-2x.jpg);
+    }
   }
 
   .hero-title {
