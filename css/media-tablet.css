@@ -4,11 +4,16 @@
     flex-direction: row;
     gap: 72px 24px;
   }
+
+  .footer-container.container {
+    width: 582px;
+  }
 }
+
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 582px;
+    width: 768px;
   }
 
   .header-list {
