@@ -1,3 +1,22 @@
+
+
+@media screen and (max-height: 704px) and (max-width: 319px) {
+  .modal {
+    max-height: 586px;
+    height: calc(100% - 30px);
+    overflow: auto;
+  }
+}
+
+@media screen and (max-height: 670px) and (max-width: 427px) {
+  .modal {
+    /* max-height: 586px; */
+    height: calc(100% - 30px);
+    overflow: auto;
+  }
+}
+
+
 @media screen and (max-height: 626px) {
   .modal {
     height: calc(100% - 30px);
@@ -5,8 +24,9 @@
   }
 }
 
+
 @media screen and (min-width: 428px) {
-  .menu-mail-link {
+  .menu-tel-link {
     font-size: 36px;
   }
 
